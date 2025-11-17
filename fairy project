@@ -1,5 +1,5 @@
 
-//Star of code
+//Start of code
 
 // Include servo library
 #include <Servo.h>
