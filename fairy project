@@ -30,7 +30,7 @@ int lastButtonBState = 0;
 bool B = false;
 
 // Scene 3.
-// Tinkerbell flies to the Winter Woods to ask for help w/ the Winter Storm
+// Tinkerbell flies to the Winter Woods to ask for help w/ the Winter Storm, breaking her wings in the process.
 Servo servo3;
 const int buttonCPin = 10;
 int buttonCState = 0;
