@@ -22,6 +22,7 @@ int lastButtonAState = 0;
 bool A = false;
 
 // Scene 2.
+// Winter cloud engulfs Pixie Hollow
 Servo servo2;
 const int buttonBPin = 9;
 int buttonBState = 0;
