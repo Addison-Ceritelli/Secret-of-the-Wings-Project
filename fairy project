@@ -1,7 +1,5 @@
 
 
-
-
 // Include servo library
 #include <Servo.h>
 
