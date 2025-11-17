@@ -38,7 +38,7 @@ int lastButtonCState = 0;
 bool C = false;
 
 // Scene 4.
-// Winter Woods fairies come to the resque, and save Pixie Hollow + the Pixie Dust Tree from being covered in ice! Fairies protect it in frost
+// Winter Woods fairies come to the rescue, and save Pixie Hollow + the Pixie Dust Tree from being covered in ice! Fairies protect it in frost
 Servo servo4;
 const int buttonDPin = 11;
 int buttonDState = 0;
