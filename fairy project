@@ -14,6 +14,7 @@
 
 // Set up variables for scenes 1 -> 5.
 // Scene 1.
+// Winter cloud erupts from Tinkerbell's machine
 Servo servo1;
 const int buttonAPin = 8;
 int buttonAState = 0;
