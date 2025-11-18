@@ -130,14 +130,6 @@ void loop() {
         if (buttonEState == HIGH) {
           servo5.write(0);
           delay(5);
-          servo5.write(0);
-          delay(5);
-          servo5.write(0);
-          delay(5);
-          servo5.write(0);
-          delay(5);
-          servo5.write(0);
-          delay(5);
         }
       }
     }
