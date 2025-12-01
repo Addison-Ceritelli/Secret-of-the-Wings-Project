@@ -36,15 +36,6 @@ int buttonDState = 0;
 int lastButtonDState = 0;
 bool D = false;
 
-// Scene 5.
-// Winter Woods and Warm Season communities are reunited, Periwinkle heals Tinkerbell's broken wing.
-// Want to add an LED + peizo potentially
-Servo servo5;
-const int buttonEPin = 12;
-int buttonEState = 0;
-int lastButtonEState = 0;
-bool E = false;
-
 void setup() {
   // Servos 1 -> 5
   servo1.attach(1);
