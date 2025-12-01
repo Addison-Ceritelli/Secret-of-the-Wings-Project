@@ -104,17 +104,6 @@ void loop() {
       }
     }
 
-// SCENE 5 START
-    if (D== true) {
-      buttonEState = digitalRead(buttonEPin);
-      if (buttonEState != lastButtonEState) {
-        if (buttonEState == HIGH) {
-          servo5.write(0);
-          delay(5);
-        }
-      }
-    }
-}
 // End of the code
 
 
