@@ -97,8 +97,9 @@ void loop() {
       if (buttonDState != lastButtonDState) {
         if (buttonDState == HIGH) {
           D = true;
-          servo4.write(0);
-          delay(15);
+          servo4.write(100);
+          delay(1600);
+          servo4.write(90);
         }
       }
     }
