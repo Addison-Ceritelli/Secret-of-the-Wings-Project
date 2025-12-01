@@ -38,16 +38,14 @@ bool D = false;
 
 void setup() {
   // Servos 1 -> 5
-  servo1.attach(1);
+  servo1.attach(12);
   pinMode(buttonAPin, INPUT);
-  servo2.attach(2);
+  servo2.attach(13);
   pinMode(buttonBPin, INPUT);
-  servo3.attach(3);
+  servo3.attach(7);
   pinMode(buttonCPin, INPUT);
-  servo4.attach(4);
+  servo4.attach(6);
   pinMode(buttonDPin, INPUT);
-  servo5.attach(5);
-  pinMode(buttonEPin, INPUT);
 
   // Sets all the servos to their initial state/position
   servo1.write(0);
