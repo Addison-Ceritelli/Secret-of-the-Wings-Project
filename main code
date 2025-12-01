@@ -72,7 +72,7 @@ void loop() {
       if (buttonBState != lastButtonBState) {
         if (buttonBState == HIGH) {
           B = true;
-          servo2.write(0);
+          servo2.write(180);
           delay(15);
         }
       }
